@@ -25,7 +25,7 @@
 ### 🧠 Architecture & Engineering Highlights
 
 - **Stateless Command Pattern:**  
-  Decoupled interactive logic (`Talk`, `Give`, `Use`) into specialized modules, keeping the core engine agnostic of specific business rules.
+  Decoupled interactive logic (`Talk`, `Give`, `Use`, `Examine`, etc.) into specialized modules, keeping the core engine agnostic of specific business rules.
 
 - **Attribute-Based Causal Chaining:**  
   Implemented an *Attribute Matching Engine* that enables recursive world-state transitions without hard-coded triggers.
@@ -42,7 +42,7 @@ graph TD
     %% Initialization Phase
     JSON[(JSON Config)] -- 1. Load --> Loader[DataLoader]
     Loader -- 2. Hydrate --> Data[GameData Singleton]
-    Data -- 3. Initialize Models --> Models[Entity Tree: Char/Obj/Conn/Map]
+    Data -- 3. Initialize Models --> Models[Entity Tree: Loca/Inve/Char/Obj/Conn]
     
     %% Runtime Interaction Phase
     UI[Game UI] -- 4. Action --> Engine[GameEngine]
