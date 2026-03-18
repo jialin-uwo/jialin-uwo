@@ -1,6 +1,6 @@
 # Hi, I'm Jialin Li 👋 
 
-**Honors Computer Science @ Western University | Aspiring AI & Systems Researcher**
+**Honors Specialization in Computer Science @ Western University | Aspiring AI & Systems Researcher**
 
 * **Bridging Industry & Academia**: 6-7 years of professional experience in Human Resources & Talent Strategy at **Qiniu Cloud AI Lab** and **Suprema**, now pivoting to core Systems and AI research.
 * **Academic Excellence**: Maintaining a **95/100 Major GPA** in core subjects including Algorithms, Operating Systems, and Mathematical Structures.
