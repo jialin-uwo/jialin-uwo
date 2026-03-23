@@ -9,7 +9,8 @@
 
 ### 🔍 Research & Technical Interests
 
-* **System Architecture**: Specialized in **data-driven decoupled systems** and Object-Oriented Design (OOD) principles, focusing on building scalable software infrastructures.
+* **System Architecture:** Specialized in **data-driven decoupled systems** and Object-Oriented Design (OOD) principles, focusing on building scalable software infrastructures.
+* **Engineering Rigor:** Committed to full-lifecycle **SDLC documentation**, including UML modeling, industrial-grade API specs, and automated testing.
 * **Machine Learning & Statistical Inference**: Deeply interested in the mathematical foundations of ML, including ensemble methods, bias-variance trade-offs, and predictive modeling.
 
 ---
@@ -23,6 +24,7 @@
 ---
 
 ### 🧠 Architecture & Engineering Highlights
+Implemented a strictly layered system (UI, Engine, Command, Data, Model) with a **unidirectional dependency flow**. The **GameEngine** acts as a central orchestrator, keeping the core logic agnostic of specific business rules.
 
 - **Stateless Command Pattern:**  
   Decoupled interactive logic (`Talk`, `Give`, `Use`, `Examine`, etc.) into specialized modules, keeping the core engine agnostic of specific business rules.
