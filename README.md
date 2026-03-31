@@ -57,14 +57,15 @@ graph TD
     Engine -- 9. Visual Refresh & Messages --> UI
 ```
 ---
-
 ### 📊 Ongoing Project: C++ Financial Ledger (CS3307)
-*Demonstrating rigorous OOD principles and high-performance C++ backend design.*
 
-* **Modular Orchestration**: Implemented a `LedgerController` to manage data flow between UI and analytical modules.
-* **Data Access Decoupling**: Utilized a **DAO pattern** to ensure core financial logic is independent of storage formats.
-* **Professional Standards**: All APIs are documented using **Doxygen** to ensure industry-grade maintainability.
+**Engineered a high-performance backend focusing on System Reliability and Transactional Integrity.**
 
+* **Transactional Rollback & Consistency:** Implemented a multi-entity rollback mechanism using memory snapshots. If a disk I/O failure occurs during record persistence, the system automatically reverts the `Category` state, preventing orphaned data and ensuring 100% referential integrity.
+* **Modular Orchestration (OOD):** Architected a `LedgerController` to manage decoupled data flow between UI and analytical modules, adhering to strict Single Responsibility principles.
+* **Data Access Decoupling (DAO):** Utilized the **Data Access Object (DAO)** pattern to abstract storage logic, ensuring the core financial engine remains agnostic of underlying file formats (CSV).
+* **Real-time Analytics:** Designed an event-driven audit engine that triggers immediate budget recalculations and state alerts upon successful record entry.
+* **Industrial Standards:** Full API documentation generated via **Doxygen** to ensure enterprise-grade maintainability and onboarding clarity.
 ---
 
 ### 📫 Connect with me
